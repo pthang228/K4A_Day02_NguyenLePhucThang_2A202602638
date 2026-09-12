@@ -1,35 +1,49 @@
 # 01 — Individual Problem Scan
 
-> Bản nháp theo case: người vận hành homestay. Các mốc có dạng `[cần đo]` phải được thay bằng log/số liệu thật trước khi nộp.
+> Điền theo Phase 1 + Phase 2 trong `01-worksheet.md`. Tự scan trước, dùng AI sau để phản biện. Không copy ví dụ Weekly Report.
 
 ## Thông tin cá nhân
 
-- Họ và tên: Nguyễn Lê Phúc Thắng
-- Mã học viên: 2A202602638
-- Vai trò / bối cảnh: Chủ hoặc người vận hành homestay.
-- Công việc hằng tuần:
-  - Trả lời khách qua Facebook, Zalo và nền tảng đặt phòng.
-  - Cập nhật phòng trống, giá và xác nhận đặt phòng.
-  - Điều phối dọn phòng, kiểm tra tiện nghi và xử lý sự cố.
-  - Theo dõi doanh thu, chi phí và công suất phòng.
+- Họ và tên: Lê Gia Bảo
+- Mã học viên: 2A202602887
+- Vai trò / bối cảnh: Sinh viên cuối năm 3 Đại học Mở TP.HCM; tạm thời ra Hà Nội học khóa AI thực chiến 12 tuần do VinUni tổ chức (batch K4A); đang ở Vinhomes.
+- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
+  - Sống tạm trú Vinhomes: ăn uống, đi lại, giặt đồ, nhận đồ, chi tiêu hằng ngày.
+  - Theo dõi tiền từ nhiều nguồn (Momo/ví, banking, tiền mặt, chia bill bạn).
+  - Giữ tiến độ môn/deadline ĐH Mở TP.HCM từ xa (LMS, email) song song khóa 12 tuần.
+  - Đi học theo lịch khóa; thỉnh thoảng đối chiếu yêu cầu lab khi đến buổi học.
+  - Trả lời gia đình (xa) và bạn cùng ở về tiền / ăn / giờ xuất phát.
 
 ---
 
-## Phase 1 — Scan 5+ problems
+## Phase 1 — Scan 5+ problems (tối thiểu 5, khuyến khích 8-10)
 
-| # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật cần ghi nhận |
+**Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` bắt buộc có số: mất bao lâu (bấm giờ mấy lần), mấy lần/tuần, bao nhiêu người gặp, log/ticket/quote nào.
+
+| # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Lặp lại | Khách hỏi lặp lại về giá, loại phòng, giờ check-in/out, địa chỉ, chỗ đậu xe và tiện nghi qua nhiều kênh. | Khách; người vận hành homestay. | Đếm số tin nhắn FAQ/ngày trong 7 ngày và bấm giờ trả lời: 1000 câu/ngày, 180 phút/ngày. |
-| 2 | Tốn thời gian | Cập nhật lịch phòng giữa Booking, Facebook/Zalo và lịch nội bộ dễ bị chậm hoặc lệch. | Khách; người vận hành; nhân viên dọn phòng. | Ghi số lần phải kiểm tra lại lịch hoặc suýt/trùng phòng trong 1 tháng: 20. |
-| 3 | Pain từ người khác | Nhân viên không nắm rõ phòng nào đã dọn xong, thiếu đồ hay cần bảo trì. | Nhân viên dọn phòng; khách check-in; người vận hành. | Ghi số lần phải nhắn/gọi lại để hỏi trạng thái phòng trong 1 tuần: 30. |
-| 4 | Tốn thời gian | Tổng hợp doanh thu, chi phí và công suất phòng từ nhiều nguồn vào cuối tuần/tháng. | Người vận hành homestay. | Bấm giờ 2 lần làm báo cáo và ghi số lần phải sửa số liệu: 60 phút/lần. |
-| 5 | AI có thể tốt hơn | Khách báo lỗi Wi-Fi, TV, khóa cửa hoặc điều hòa nhưng mô tả ban đầu thiếu thông tin; người vận hành phải hỏi lại và điều phối người sửa chữa. | Khách; người vận hành; kỹ thuật viên. | Ghi số sự cố lặp lại và thời gian xử lý trong 1 tháng: 3 sự cố và 60 phút 1 lần . |
+| 1 | Lặp lại | Mỗi tối (hoặc dồn cuối tuần) phải đối chiếu chi tiêu rải Momo/ví, banking, tiền mặt, chia bill bạn cùng ở mới biết hôm nay/tuần này tiêu gì | Bản thân (SV tạm trú Vinhomes); đôi khi bạn cùng ở | ~20–30 phút/đêm hoặc dồn cuối tuần ~60–90 phút; làm 5–7 ngày/tuần hoặc 1 lần/tuần nếu trì hoãn |
+| 2 | Lặp lại | Mỗi sáng quyết định ăn gì + mua/đi đâu quanh Vinhomes trước giờ học | Bản thân | ~15–25 phút/ngày; hay chốt sát giờ → trễ xuất phát 10–15 phút |
+| 3 | Tốn thời gian | Cuối tuần/tháng tổng hợp chi tiêu để biết còn đủ tiền sống xa nhà tới đâu (và trả lời gia đình nếu cần) | Bản thân; gia đình ở TP.HCM khi hỏi | ~60–90 phút/lần; ~1 lần/tuần hoặc 1 lần/tháng; hay phải mở lại 3–4 app |
+| 4 | Tốn thời gian | Kiểm tra deadline + bài tập ĐH Mở trên LMS/email khi đang bận lịch khóa 12 tuần ở Hà Nội | Bản thân (SV ĐH Mở học từ xa) | Mỗi đợt rà ~30–45 phút; 1–2 lần/tuần; sót 1 deadline là rủi ro điểm trường mẹ |
+| 5 | AI có thể tốt hơn | Lên thực đơn / kế hoạch mua đồ tuần theo ngân sách + giờ đi học | Bản thân | Làm tay ~40–60 phút/tuần; giữa tuần đổi kế hoạch 2–3 lần vì hết đồ/đổi lịch |
+| 6 | AI có thể tốt hơn | Tóm tắt thông báo LMS/email ĐH Mở thành list “việc phải làm tuần này” | Bản thân | Đọc rải ~20–40 phút/tuần; dễ bỏ sót 1–2 thông báo quan trọng |
+| 7 | Pain từ người khác | Gia đình (xa) hỏi lại tình hình tiền / ăn ở nhưng trả lời chậm hoặc không có số rõ | Gia đình + bản thân | Hỏi lại trên Zalo khoảng 2–4 lần/tuần (“tuần này tiêu bao nhiêu?”, “còn đủ không?”) |
+| 8 | Pain từ người khác | Bạn cùng khóa / cùng ở hỏi lặp “hôm nay ăn đâu / đi đường nào / mấy giờ xuất phát?” | Bạn tạm trú + bản thân | 3–5 lần/tuần trước giờ học; mỗi lần làm đứt việc đang làm ~5–10 phút |
+| 9 | Lặp lại | Nhắc lịch giặt đồ / nhận hàng / việc nhà Vinhomes xen giờ học | Bản thân | Quên ~1–2 lần/tuần → dồn cuối ngày mất thêm ~30+ phút |
+| 10 | Tốn thời gian | (Góc khóa AI) Đối chiếu worksheet + example + Discord + README trước khi viết bài lab | Học viên khóa 12 tuần | ~40–60 phút/lab; 2–3 lab/tuần — giữ trong scan nhưng không chọn làm pitch chính |
 
-**AI đã dùng ở Phase 1:**
+> Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
-- Prompt đã hỏi: “Tôi vận hành homestay. Hãy gợi ý các vấn đề lặp lại, tốn thời gian hoặc AI có thể hỗ trợ; chỉ rõ actor, workflow, bottleneck và cách đo.”
-- Ý dùng được: phân loại các vấn đề theo workflow để dễ quan sát và đo lường.
-- Ý bỏ: các đề xuất quá rộng như “xây trợ lý AI quản lý toàn bộ homestay”, vì chưa có workflow, dữ liệu hay boundary rõ.
+**AI đã dùng ở Phase 1 (nếu có):**
+- Prompt đã hỏi: Gợi ý thêm problem đời sống cho SV ĐH Mở tạm trú Vinhomes Hà Nội (chi tiêu, ăn uống, deadline trường mẹ, bạn/gia đình); yêu cầu actor + cách đo; không đề xuất trợ lý AI toàn năng.
+- Ý dùng được: chi tiêu đa nguồn; thực đơn theo ngân sách; tóm tắt LMS; gia đình hỏi tiền; lịch việc nhà.
+- Ý bỏ vì không phải pain thật / quá rộng: “agent quản lý cả căn hộ Vinhomes”; “chatbot mentor 24/7”; “tự động nộp học phí”.
+
+**Self-check Phase 1:**
+- [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
+- [x] Dùng ít nhất 3/4 lăng kính
+- [x] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
 ---
 
@@ -37,251 +51,237 @@
 
 ### 2.1. Chọn top 3
 
-| Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
+Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottleneck ở 1 bước, impact đo được. Loại bài quá rộng.
+
+| Rank | Problem (copy từ bảng scan) | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
 |---|---|---|---|
-| 1 | Khách hỏi thông tin lặp lại qua nhiều kênh | Actor và workflow rõ; lặp lại thường xuyên; có thể đo thời gian phản hồi và thời gian vận hành. | Cần log tần suất câu hỏi và kiểm tra FAQ/rule có xử lý đủ không. |
-| 2 | Lịch phòng có nguy cơ lệch giữa các kênh | Ảnh hưởng trực tiếp tới booking và trải nghiệm khách; có hậu quả rõ nếu sai. | Cần biết các kênh hiện có hỗ trợ đồng bộ hay chưa. |
-| 3 | Theo dõi trạng thái dọn phòng và bảo trì | Workflow có nhiều handoff; có thể giảm việc gọi/nhắn lặp lại. | Cần xác nhận đây có phải pain lớn của nhân viên hay chỉ là vấn đề thỉnh thoảng. |
+| 1 | Đối chiếu / tổng hợp chi tiêu rải nhiều nguồn khi sống xa nhà | Actor rõ; workflow 5–6 bước; bottleneck ở gom+phân loại; metric phút/tuần tốt; so R/W/A được | Baseline 60–90' có ổn định không nếu đôi khi ghi mỗi tối 20–30'? |
+| 2 | Lên thực đơn / mua đồ tuần theo ngân sách + lịch học | Lặp hàng tuần; AI giỏi gợi ý theo ràng buộc; impact tới tiền và thời gian sáng | “Thực đơn đủ tốt” khó đo hơn tổng tiền; hay đổi giữa tuần |
+| 3 | Bắt kịp deadline ĐH Mở từ xa song song khóa 12 tuần | Pain thật khi học 2 song song; Rule checklist tuần có thể mạnh | Data nằm LMS/email; quality “không sót” cần log thật |
 
-### 2.2. Problem Card #1 — Khách hỏi thông tin lặp lại qua nhiều kênh
-
-**Problem 1 câu:**
-Khách tiềm năng thường hỏi lặp lại về giá, phòng trống, giờ check-in/check-out, địa chỉ, chỗ đậu xe và tiện nghi qua Facebook, Zalo và nền tảng đặt phòng, khiến người vận hành phải trả lời thủ công nhiều lần và có nguy cơ phản hồi chậm vào giờ cao điểm hoặc ngoài giờ.
-
-**Actor:**
-Khách đang tìm phòng và người vận hành homestay.
-
-**Thời điểm / bối cảnh:**
-Trước khi khách đặt phòng; tập trung vào buổi tối, cuối tuần hoặc lúc người vận hành không thể trả lời ngay.
-
-**Current workflow:**
-
-```text
-1. Khách gửi tin nhắn qua Facebook, Zalo hoặc nền tảng booking.
-2. Người vận hành mở từng kênh và đọc tin.
-3. Kiểm tra giá, lịch trống, loại phòng và quy định liên quan.
-4. Soạn câu trả lời rồi gửi khách.
-5. Khách hỏi thêm hoặc muốn đặt; người vận hành tiếp tục tư vấn/xác nhận.
-```
-
-**Bottleneck:**
-Bước 2-4 lặp lại với các câu hỏi giống nhau. Người vận hành phải chuyển giữa nhiều kênh, kiểm tra thông tin rồi tự soạn lại câu trả lời; vào giờ cao điểm hoặc ngoài giờ, thời gian phản hồi tăng và dễ sót tin.
-
-**Impact:**
-- Mất 180 phút/ngày cho các câu hỏi FAQ.
-- Khách có thể rời đi nếu không nhận được phản hồi sớm.
-- Thông tin trả lời có thể thiếu nhất quán nếu giá/quy định thay đổi.
-
-**Success metric:**
-- Baseline: đo trong 7 ngày số câu FAQ, thời gian phản hồi đầu tiên và thời gian trả lời thủ công.
-- Mục tiêu pilot: ít nhất 80% câu hỏi FAQ nhận câu trả lời đầu tiên trong dưới 5 phút; giảm ít nhất 30% thời gian trả lời FAQ thủ công.
-- Guardrail: không tăng số câu khách phải hỏi lại do câu trả lời thiếu/sai.
-
-**Non-AI alternative:**
-Tạo FAQ, tin nhắn trả lời nhanh, menu/nút chọn hoặc chatbot theo kịch bản. Đây là phương án cần thử trước vì các câu hỏi phổ biến có nội dung tương đối cố định.
-
-**AI hypothesis:**
-Sau khi FAQ và chính sách được chuẩn hóa, AI có thể phân loại câu hỏi viết tự do, tạo câu trả lời dựa trên thông tin đã duyệt và chuyển trường hợp không chắc chắn cho người vận hành. AI không được tự xác nhận phòng trống, chốt giá đặc biệt hay nhận thanh toán.
-
-**Quick gut:**
-`[x] Rule` cho FAQ cố định; có thể nâng thành `Workflow` có AI hỗ trợ sau khi đo được các câu hỏi ngoài FAQ. Chưa cần Agent.
-
-### Draft current workflow
-
-```text
-CURRENT STATE — thời gian cần đo trong 7 ngày
-
-[Khách nhắn ở Facebook/Zalo/Booking]
-→ [Người vận hành mở kênh và đọc]
-→ [Kiểm tra giá, lịch, quy định]
-→ [Tự soạn câu trả lời]  <-- bottleneck
-→ [Khách hỏi thêm / đặt phòng]
-→ [Người vận hành xác nhận]
-```
-
-### Draft future workflow
-
-```text
-FUTURE STATE — pilot FAQ
-
-[Khách nhắn]
-→ [Rule nhận diện menu/từ khóa FAQ]
-→ [Gửi câu trả lời đã duyệt]
-→ [Nếu hỏi phòng trống, giá đặc biệt, khiếu nại hoặc bot không chắc]
-→ [Chuyển người vận hành]
-→ [Người vận hành kiểm tra và trả lời cuối]
-
-Human boundary: chỉ người vận hành xác nhận booking, giá và ngoại lệ.
-Fallback: bot không chắc hoặc dữ liệu cũ → không tự đoán; báo khách chờ người vận hành hỗ trợ.
-```
+### 2.2. Problem Cards chi tiết (lặp lại cho cả 3 cards)
 
 ---
 
-#### Problem Card #2 — Lịch phòng có nguy cơ lệch giữa các kênh
-
-**Problem 1 câu:**
-Người vận hành phải kiểm tra và cập nhật lịch phòng thủ công giữa Booking, Facebook/Zalo và lịch nội bộ, nên có nguy cơ báo sai phòng trống hoặc xử lý booking chậm.
-
-**Actor:**
-Người vận hành homestay; khách đặt phòng; nhân viên dọn phòng.
-
-**Thời điểm / bối cảnh:**
-Khi có khách hỏi phòng trống hoặc đặt phòng qua bất kỳ kênh nào, đặc biệt khi nhiều yêu cầu đến gần nhau.
-
-**Current workflow:**
+#### Problem Card #1 — Theo dõi & tổng hợp chi tiêu khi sống xa nhà
 
 ```text
-1. Khách hỏi hoặc gửi yêu cầu đặt phòng từ một kênh.
-2. Người vận hành kiểm tra lịch ở kênh đó.
-3. Người vận hành đối chiếu Booking, Facebook/Zalo và lịch nội bộ.
-4. Cập nhật lịch sau khi xác nhận booking.
-5. Báo thông tin phòng cho nhân viên dọn phòng khi cần.
+Problem 1 câu:
+Mỗi tuần, SV tạm trú Vinhomes (Hà Nội) mất khoảng 60–90 phút (hoặc ~20–30 phút/đêm) để đối chiếu chi tiêu từ Momo/ví, banking, tiền mặt và chia bill trước khi biết còn đủ tiền sống xa nhà — bottleneck ở bước gom và phân loại giao dịch rời.
+
+Actor:
+Lê Gia Bảo — SV năm 3 ĐH Mở TP.HCM, đang tạm trú Vinhomes để học khóa AI 12 tuần; đôi khi chia sẻ chi tiêu với bạn cùng ở.
+
+Thời điểm / bối cảnh:
+Mỗi tối trước ngủ, hoặc dồn Chủ nhật trước khi nhắn gia đình / lên ngân sách tuần mới.
+
+Current workflow 3-7 bước:
+1. Mở app ví (Momo/khác) xem giao dịch gần đây
+2. Mở app banking / lịch sử chuyển khoản
+3. Nhớ / hỏi lại tiền mặt và chia bill với bạn
+4. Ghi vào Notes hoặc Google Sheets
+5. Tự cộng và phân loại (ăn, đi lại, tiện ích, linh tinh)
+6. Ước lượng còn bao nhiêu cho tuần tới
+7. (Hay xảy ra) Gia đình hỏi → phải mở lại app để trả lời
+
+Bottleneck:
+Bước 4–5 — gom từ nhiều nguồn rồi phân loại thủ công; mất ~25–40 phút mỗi lần tổng hợp tuần và dễ sai/ sót.
+
+Impact:
+~60–90 phút/tuần; trì hoãn thì không biết sắp hết tiền; gia đình hỏi lại 2–4 lần/tuần; stress sống xa nhà tăng.
+
+Success metric:
+Giảm thời gian tổng hợp tuần từ ~75 phút xuống dưới 20 phút; số giao dịch phân loại sai phải sửa tay ≤10%/tuần; số lần gia đình hỏi lại vì thiếu số giảm từ 2–4 xuống ≤1 lần/tuần.
+
+Non-AI alternative:
+Chỉ dùng 1 app ghi chi tiêu + Rule danh mục cố định + chuyển hết qua 1 tài khoản có thể giảm rối, nhưng vẫn phải nhập tay và không tự gom được bill/tiền mặt.
+
+AI hypothesis:
+Paste/export giao dịch tuần → AI phân loại theo danh mục Rule + draft tổng theo nhóm → mình review số trước khi chốt ngân sách / trả lời gia đình.
+
+Quick gut:
+[ ] No AI / process fix
+[ ] Rule
+[x] Workflow
+[ ] Agent
+[ ] Chưa biết
 ```
 
-**Bottleneck:**
-Bước 2-4 yêu cầu chuyển qua lại giữa nhiều kênh và cập nhật thủ công. Nếu cập nhật chậm hoặc quên một kênh, người vận hành có thể báo nhầm trạng thái phòng hoặc phải nhắn lại cho khách.
+**Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
 
-**Impact:**
-- Tốn 10 phút cho mỗi booking cần đối chiếu nhiều kênh.
-- Có nguy cơ xảy ra lỗi lệch lịch/trùng phòng; cần ghi số lần trong 20 tháng gần nhất.
-- Khách và nhân viên dọn phòng nhận thông tin chậm hoặc không nhất quán.
+```text
+CURRENT STATE — ~75 phút/tuần (hoặc 7×25' nếu ghi mỗi tối)
 
-**Success metric:**
-- Baseline: ghi thời gian xử lý 10 yêu cầu booking và số lần phải sửa/đối chiếu lại lịch trong 1 tháng.
-- Mục tiêu pilot: giảm thời gian kiểm tra trạng thái phòng cho một yêu cầu xuống dưới 30 giây; không phát sinh lỗi báo sai phòng trống trong thời gian pilot.
+[1 Mở ví: 10']
+→ [2 Mở banking: 10']
+→ [3 Nhớ tiền mặt/chia bill: 10']
+→ [4 Ghi Notes/Sheets: 15']
+→ [5 Tự cộng + phân loại: 25']  <-- bottleneck
+→ [6 Ước ngân sách tuần: 5']
 
-**Non-AI alternative:**
-Dùng một lịch trung tâm, checklist cập nhật sau booking và quy ước trạng thái phòng thống nhất. Nếu các nền tảng hỗ trợ, cân nhắc channel manager để đồng bộ lịch.
+FUTURE STATE — ~18 phút/tuần
 
-**AI hypothesis:**
-AI chỉ nên hỗ trợ đọc nội dung booking tự do và tóm tắt các yêu cầu cần cập nhật. Trạng thái phòng và thao tác xác nhận phải lấy từ nguồn dữ liệu chính xác, không để AI tự suy đoán.
+[1 Export/paste giao dịch 3 nguồn: 5']
+→ [2 Rule: map vào danh mục cố định: 1']
+→ [3 AI phân loại + tổng theo nhóm: 2']  -- Workflow step
+→ [4 Mình review số + sửa sai: 8']  <-- human boundary
+→ [5 Chốt ngân sách / trả lời gia đình: 2']
 
-**Quick gut:**
-`[x] Workflow` — trước hết là một quy trình đồng bộ dữ liệu và checklist; chưa đủ căn cứ để dùng Agent.
+Fallback: AI phân loại sai nhiều (>20%) hoặc bịa số → bỏ draft, chỉ dùng Rule danh mục + nhập Sheets tay; không gửi số cho gia đình khi chưa cộng lại.
+```
+
+File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
+
+---
+
+#### Problem Card #2 — Lên kế hoạch ăn uống / mua đồ theo tuần
+
+```text
+Problem 1 câu:
+Mỗi tuần SV tạm trú mất khoảng 40–60 phút để tự lên thực đơn và danh sách mua đồ quanh Vinhomes theo ngân sách và lịch học, nhưng giữa tuần vẫn đổi kế hoạch vì hết đồ hoặc đổi giờ.
+
+Actor:
+Bản thân — và đôi khi bạn cùng ở cùng quyết định “hôm nay ăn gì”.
+
+Thời điểm / bối cảnh:
+Chủ nhật hoặc tối Chủ nhật trước tuần học mới; điều chỉnh mỗi sáng.
+
+Current workflow 3-7 bước:
+1. Xem lịch học tuần
+2. Ước ngân sách ăn tuần
+3. Nghĩ món / chỗ mua quanh Vinhomes
+4. Viết list mua (Notes)
+5. Đi mua 1–2 lần trong tuần
+6. Giữa tuần hết đồ / đổi lịch → quyết định lại sáng hôm đó
+
+Bottleneck:
+Bước 3–4 — biến ràng buộc (tiền + giờ + địa điểm) thành list cụ thể; ~20–30 phút và hay phải làm lại.
+
+Impact:
+Mất 40–60 phút/tuần + 15–25 phút/sáng khi không có kế hoạch; dễ ăn ngoài đắt hơn ngân sách.
+
+Success metric:
+Thời gian lên kế hoạch tuần: 50' → dưới 15'; số buổi sáng phải quyết định lại vì thiếu kế hoạch: 5–7 → ≤2 buổi/tuần.
+
+Non-AI alternative:
+Thực đơn xoay 7 món cố định (Rule) + list mua template.
+
+AI hypothesis:
+Input: ngân sách + lịch bận + sở thích/kiêng → AI draft thực đơn 7 ngày + list mua; mình sửa rồi mới đi chợ.
+
+Quick gut:
+[ ] No AI / process fix
+[ ] Rule
+[x] Workflow
+[ ] Agent
+[ ] Chưa biết
+```
 
 **Draft workflow Card #2:**
 
 ```text
-CURRENT STATE — thời gian cần đo
+CURRENT STATE — ~50 phút/tuần + quyết định lại mỗi sáng
 
-[Khách hỏi/đặt phòng ở một kênh]
-→ [Mở từng kênh để kiểm tra lịch]
-→ [Đối chiếu với lịch nội bộ]  <-- bottleneck
-→ [Xác nhận với khách]
-→ [Cập nhật từng kênh]
-→ [Báo nhân viên dọn phòng]
+[1 Xem lịch: 5'] → [2 Ước ngân sách: 5'] → [3 Nghĩ món/chỗ: 25']  <-- bottleneck → [4 Viết list: 15']
 
-FUTURE STATE — pilot quy trình tập trung
+FUTURE STATE — ~15 phút
 
-[Yêu cầu booking]
-→ [Kiểm tra lịch trung tâm]
-→ [Rule/checklist kiểm tra trạng thái]
-→ [Người vận hành xác nhận]
-→ [Cập nhật và thông báo nhân viên]
+[1 Nhập ngân sách + lịch bận: 3'] → [2 AI draft thực đơn + list mua: 2'] → [3 Review/sửa: 8']  <-- human boundary → [4 Đi mua theo list]
 
-Human boundary: người vận hành luôn kiểm tra lịch thực tế trước khi xác nhận với khách.
-Fallback: lịch trung tâm có dấu hiệu chưa đồng bộ → kiểm tra lại tất cả kênh trước khi chốt.
+Fallback: AI gợi ý món không hợp chỗ quanh Vinhomes / vượt ngân sách → quay về Rule 7 món cố định.
 ```
+
+File đính kèm: `01-individual-problem-scan-workflow-card-2.png`
 
 ---
 
-#### Problem Card #3 — Theo dõi trạng thái dọn phòng và bảo trì
-
-**Problem 1 câu:**
-Người vận hành khó biết phòng nào đã dọn xong, còn thiếu vật dụng hoặc có thiết bị cần bảo trì khi việc bàn giao chủ yếu qua tin nhắn, khiến phòng có thể chưa sẵn sàng lúc khách check-in.
-
-**Actor:**
-Nhân viên dọn phòng; người vận hành homestay; khách sắp check-in.
-
-**Thời điểm / bối cảnh:**
-Sau khi khách check-out và trước thời điểm khách tiếp theo check-in.
-
-**Current workflow:**
+#### Problem Card #3 — Bắt kịp deadline ĐH Mở từ xa
 
 ```text
-1. Khách check-out hoặc người vận hành nhận thông báo check-out.
-2. Người vận hành nhắn/gọi nhân viên để giao việc dọn phòng.
-3. Nhân viên dọn phòng và kiểm tra vật dụng/thiết bị.
-4. Nhân viên báo lại bằng tin nhắn hoặc cuộc gọi.
-5. Người vận hành hỏi lại nếu thiếu thông tin hoặc cần kiểm tra.
-6. Người vận hành xác nhận phòng sẵn sàng cho khách tiếp theo.
+Problem 1 câu:
+Khi đang học khóa AI 12 tuần ở Hà Nội, SV ĐH Mở mất khoảng 30–45 phút mỗi lần rà LMS/email để không sót deadline trường mẹ, và vẫn dễ bỏ sót thông báo quan trọng.
+
+Actor:
+Lê Gia Bảo — SV năm 3 ĐH Mở đang học từ xa song song khóa AI.
+
+Thời điểm / bối cảnh:
+1–2 lần/tuần (thường cuối tuần hoặc tối sau lab), trước hạn nộp môn trường mẹ.
+
+Current workflow 3-7 bước:
+1. Mở LMS ĐH Mở
+2. Lướt từng môn / thông báo
+3. Mở email tìm mail giảng viên
+4. Ghi deadline vào Notes/lịch
+5. Ưu tiên việc nào làm trước
+6. Làm bài / nộp
+
+Bottleneck:
+Bước 1–4 — thông tin rải LMS + email; mất ~25–35 phút chỉ để “biết tuần này phải làm gì”.
+
+Impact:
+~30–45 phút × 1–2 lần/tuần; sót deadline → ảnh hưởng điểm tốt nghiệp/năm 3; stress kép vì đang bận khóa AI.
+
+Success metric:
+Thời gian rà “việc tuần này”: 35' → dưới 10'; số thông báo/deadline bị sót: về 0 trong 4 tuần liên tiếp (đối chiếu lịch đã ghi).
+
+Non-AI alternative:
+Rule: mỗi Chủ nhật checklist cố định “mở LMS + email + cập nhật lịch”; pin deadline trên Google Calendar.
+
+AI hypothesis:
+Paste danh sách thông báo/email tuần → AI xuất list việc + deadline + độ ưu tiên; mình xác nhận rồi mới đưa vào Calendar.
+
+Quick gut:
+[ ] No AI / process fix
+[x] Rule
+[ ] Workflow
+[ ] Agent
+[ ] Chưa biết
 ```
-
-**Bottleneck:**
-Trạng thái phòng không được cập nhật ở một nơi chung. Người vận hành phải hỏi lại liệu phòng đã dọn xong chưa, có thiếu đồ không hoặc có lỗi thiết bị không; thông tin dễ bị sót khi có nhiều phòng.
-
-**Impact:**
-- Mất 7-10 lần gọi/nhắn lại mỗi tuần để kiểm tra trạng thái phòng.
-- Có nguy cơ phát hiện thiếu đồ hoặc hỏng thiết bị muộn, sát giờ khách check-in.
-- Nhân viên và người vận hành không có cùng một trạng thái phòng để theo dõi.
-
-**Success metric:**
-- Baseline: theo dõi trong 1 tuần số phòng sẵn sàng đúng giờ, số lần hỏi lại và số lỗi phát hiện sau khi báo đã hoàn tất.
-- Mục tiêu pilot: 100% phòng có trạng thái dọn phòng trước giờ check-in; giảm ít nhất 50% số lần hỏi lại giữa người vận hành và nhân viên.
-
-**Non-AI alternative:**
-Dùng bảng trạng thái chung hoặc form checklist theo phòng: cần dọn, đang dọn, chờ kiểm tra, sẵn sàng, cần bảo trì. Đây là phương án nên thử đầu tiên.
-
-**AI hypothesis:**
-AI có thể tóm tắt tin nhắn bàn giao hoặc phát hiện các nội dung có dấu hiệu “thiếu”, “hỏng”, “cần sửa”. AI không được tự đánh dấu phòng sẵn sàng; nhân viên hoặc người vận hành phải xác nhận bằng checklist.
-
-**Quick gut:**
-`[x] Rule / Workflow` — quy trình và checklist trạng thái rõ ràng có thể giải quyết phần lớn vấn đề; AI chỉ là hỗ trợ phụ.
 
 **Draft workflow Card #3:**
 
 ```text
-CURRENT STATE — thời gian cần đo
+CURRENT STATE — ~35 phút/lần rà
 
-[Khách check-out]
-→ [Người vận hành nhắn/gọi giao việc]
-→ [Nhân viên dọn phòng]
-→ [Nhân viên báo bằng tin nhắn]
-→ [Người vận hành hỏi lại / kiểm tra]  <-- bottleneck
-→ [Xác nhận sẵn sàng]
+[1 LMS: 15'] → [2 Email: 10'] → [3 Ghi Notes: 5'] → [4 Ưu tiên: 5']  <-- bottleneck ở 1–2
 
-FUTURE STATE — pilot bảng trạng thái + checklist
+FUTURE STATE — ~10 phút
 
-[Khách check-out]
-→ [Rule tạo việc dọn phòng]
-→ [Nhân viên cập nhật checklist/trạng thái]
-→ [Người vận hành kiểm tra điểm bất thường]
-→ [Xác nhận phòng sẵn sàng]
+[1 Rule: mở LMS+email Chủ nhật: 3'] → [2 Paste thông báo → AI list deadline: 2'] → [3 Review + đưa Calendar: 5']  <-- human boundary
 
-Human boundary: chỉ nhân viên hoặc người vận hành được đánh dấu “sẵn sàng”.
-Fallback: không có checklist hoàn chỉnh hoặc có báo lỗi → phòng giữ trạng thái “chờ kiểm tra”, không giao khách vào.
+Fallback: AI sót deadline → chỉ tin lịch tự tick từ LMS; Rule checklist Chủ nhật vẫn bắt buộc.
 ```
 
-File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-3.png`
+File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
 
-### 2.3. Card muốn pitch nhất
+---
+
+### 2.3. Card muốn pitch nhất (chuẩn bị 2 phút)
 
 **Card tôi muốn pitch nhất:**
 
 ```text
-Khách hỏi thông tin lặp lại qua nhiều kênh.
+Problem Card #1 — Theo dõi & tổng hợp chi tiêu khi sống xa nhà (Vinhomes)
 ```
 
-**Vì sao:**
+**Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
 ```text
-Đây là workflow tôi trực tiếp nhìn thấy: khách nhắn, tôi kiểm tra thông tin rồi trả lời. Bước soạn và gửi lại cùng một thông tin lặp lại, trong khi thời gian phản hồi có thể đo rõ bằng log tin nhắn. Tôi muốn kiểm tra xem FAQ/rule đã đủ hay chỉ một phần nhỏ câu hỏi mới cần AI hỗ trợ.
+Workflow 6 bước rõ, bottleneck nằm ở gom + phân loại giao dịch từ nhiều nguồn (~25–40 phút). Baseline khoảng 75 phút/tuần; nếu xuống dưới 20 phút thì còn sức cho học và giảm việc gia đình hỏi lại vì thiếu số. Dễ so sánh Rule (1 app + danh mục) vs Workflow (AI phân loại + review) vs Agent (quá rộng).
 ```
 
-**Câu hỏi tôi muốn nhóm challenge:**
+**Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
 ```text
-1. Có evidence nào cho thấy phản hồi chậm thực sự làm mất booking, hay đây chỉ là cảm nhận của tôi?
-2. FAQ và trả lời nhanh có giải được 70-80% câu hỏi chưa, hay có đủ câu hỏi tự do để dùng AI Workflow?
+1) Nếu chuyển hết chi tiêu về 1 tài khoản + 1 app ghi tay (Rule) thì đã đủ 70–80% case chưa — AI còn cần ở bước nào?
+2) Baseline 75 phút/tuần của tôi có đại diện bạn cùng tạm trú không, hay chỉ vì tôi trì hoãn ghi mỗi tối?
 ```
 
-**AI phản biện Card:**
-
-- Điểm yếu AI chỉ ra: chưa có baseline tần suất và thời gian phản hồi; dễ nhảy thẳng sang chatbot AI trong khi rule có thể đủ.
-- Tôi sửa gì: dùng log 7 ngày để phân nhóm câu hỏi, đo thời gian và thử FAQ/rule trước; giữ AI ở scope trả lời nháp có nguồn đã duyệt.
+**AI phản biện Card (nếu có):**
+- Điểm yếu AI chỉ ra: Trộn “ghi mỗi tối” và “dồn cuối tuần” làm baseline lệch; privacy khi paste sao kê; dễ nhảy sang Agent đọc mọi app.
+- Tôi sửa gì: Chốt metric theo **tổng hợp tuần** (~75'); AI chỉ nhận dữ liệu mình paste; giữ Workflow, không tự lấy data từ app.
 
 ### Self-check nộp phần 01
-
-- [x] Có 5 problems và top 3 Problem Cards.
-- [x] Card #1 có workflow trước/sau, bottleneck, metric và fallback.
-- [x] Đã chọn 1 card pitch và câu hỏi challenge.
+- [x] Có 5+ problems + top 3 Cards đủ field
+- [x] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
+- [x] Đã chọn 1 card pitch + câu hỏi challenge
