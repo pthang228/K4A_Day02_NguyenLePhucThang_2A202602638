@@ -6,7 +6,7 @@
 
 - Họ và tên: Lê Gia Bảo
 - Mã học viên: 2A202602887
-- Vai trò / bối cảnh: Sinh viên cuối năm 3 Đại học Mở TP.HCM; tạm thời ra Hà Nội học khóa AI thực chiến 12 tuần do VinUni tổ chức (batch K4A); đang ở Vinhomes.
+- Vai trò / bối cảnh: Sinh viên cuối năm 3 tại TP.HCM; tạm thời ra Hà Nội học khóa AI thực chiến 12 tuần do VinUni tổ chức (batch K4A); đang ở Vinhomes.
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
   - Sống tạm trú Vinhomes: ăn uống, đi lại, giặt đồ, nhận đồ, chi tiêu hằng ngày.
   - Theo dõi tiền từ nhiều nguồn (Momo/ví, banking, tiền mặt, chia bill bạn).
