@@ -1,35 +1,40 @@
 # 01 — Individual Problem Scan
 
-> Bản nháp theo case: người vận hành homestay. Các mốc có dạng `[cần đo]` phải được thay bằng log/số liệu thật trước khi nộp.
+> Điền theo Phase 1 + Phase 2 trong `01-worksheet.md`. Tự scan trước, dùng AI sau để phản biện. Không copy ví dụ Weekly Report.
 
 ## Thông tin cá nhân
 
-- Họ và tên: Nguyễn Lê Phúc Thắng
-- Mã học viên: 2A202602638
-- Vai trò / bối cảnh: Chủ hoặc người vận hành homestay.
-- Công việc hằng tuần:
-  - Trả lời khách qua Facebook, Zalo và nền tảng đặt phòng.
-  - Cập nhật phòng trống, giá và xác nhận đặt phòng.
-  - Điều phối dọn phòng, kiểm tra tiện nghi và xử lý sự cố.
-  - Theo dõi doanh thu, chi phí và công suất phòng.
+- Họ và tên: Vũ Minh Hiếu
+- Mã học viên: 2A202602779
+- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): Intern AI
+- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem): Hoàn thành task được giao và ghi lại tài liệu, kết quả, báo cáo cho team leader.
 
 ---
 
-## Phase 1 — Scan 5+ problems
+## Phase 1 — Scan 5+ problems (tối thiểu 5, khuyến khích 8-10)
 
-| # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật cần ghi nhận |
+**Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` bắt buộc có số: mất bao lâu (bấm giờ mấy lần), mấy lần/tuần, bao nhiêu người gặp, log/ticket/quote nào.
+
+| # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Lặp lại | Khách hỏi lặp lại về giá, loại phòng, giờ check-in/out, địa chỉ, chỗ đậu xe và tiện nghi qua nhiều kênh. | Khách; người vận hành homestay. | Đếm số tin nhắn FAQ/ngày trong 7 ngày và bấm giờ trả lời: 1000 câu/ngày, 180 phút/ngày. |
-| 2 | Tốn thời gian | Cập nhật lịch phòng giữa Booking, Facebook/Zalo và lịch nội bộ dễ bị chậm hoặc lệch. | Khách; người vận hành; nhân viên dọn phòng. | Ghi số lần phải kiểm tra lại lịch hoặc suýt/trùng phòng trong 1 tháng: 20. |
-| 3 | Pain từ người khác | Nhân viên không nắm rõ phòng nào đã dọn xong, thiếu đồ hay cần bảo trì. | Nhân viên dọn phòng; khách check-in; người vận hành. | Ghi số lần phải nhắn/gọi lại để hỏi trạng thái phòng trong 1 tuần: 30. |
-| 4 | Tốn thời gian | Tổng hợp doanh thu, chi phí và công suất phòng từ nhiều nguồn vào cuối tuần/tháng. | Người vận hành homestay. | Bấm giờ 2 lần làm báo cáo và ghi số lần phải sửa số liệu: 60 phút/lần. |
-| 5 | AI có thể tốt hơn | Khách báo lỗi Wi-Fi, TV, khóa cửa hoặc điều hòa nhưng mô tả ban đầu thiếu thông tin; người vận hành phải hỏi lại và điều phối người sửa chữa. | Khách; người vận hành; kỹ thuật viên. | Ghi số sự cố lặp lại và thời gian xử lý trong 1 tháng: 3 sự cố và 60 phút 1 lần . |
+| 1 | Lặp lại | Tổng hợp công việc đã làm trong tuần và viết weekly report | Nhân viên | Lặp lại hàng tuần, phải cố gắng nhớ các việc đã làm |
+| 2 | Tốn thời gian | Viết report trình bày các dataset có thể sử dụng | Nhân viên | 40 phút / report |
+| 3 | Tốn thời gian | Tổng hợp và đối chiếu kết quả benchmark giữa các prompt/mô hình vào sheet báo cáo | Intern / Leader | 45–60 phút mỗi đợt test (2–3 đợt/tuần), copy thủ công từng chỉ số từ log/terminal |
+| 4 | AI có thể tốt hơn | Tóm tắt và trích xuất thông tin chính từ các paper/tài liệu kỹ thuật mới để đề xuất giải pháp | Intern / Team tech | Mất 2–3 giờ để đọc lướt và lọc 5 paper nhưng chỉ dùng được 1–2 ý tưởng khả thi |
+| 5 | Pain từ người khác | Viết tài liệu kỹ thuật (documentation/docstring) và hướng dẫn chạy code (README) sau khi hoàn thành task | Intern / Thành viên khác nhận lại task | 60–90 phút/repo; thường bị đẩy sang cuối sprint hoặc viết sơ sài khiến người sau mất 1–2 giờ debug môi trường |
 
-**AI đã dùng ở Phase 1:**
+> Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
-- Prompt đã hỏi: “Tôi vận hành homestay. Hãy gợi ý các vấn đề lặp lại, tốn thời gian hoặc AI có thể hỗ trợ; chỉ rõ actor, workflow, bottleneck và cách đo.”
-- Ý dùng được: phân loại các vấn đề theo workflow để dễ quan sát và đo lường.
-- Ý bỏ: các đề xuất quá rộng như “xây trợ lý AI quản lý toàn bộ homestay”, vì chưa có workflow, dữ liệu hay boundary rõ.
+**AI đã dùng ở Phase 1 (nếu có):**
+- Prompt đã hỏi: "Tôi là nhân viên/intern AI, công việc hàng tuần gồm: tổng hợp báo cáo tiến độ, benchmark mô hình và khảo sát dữ liệu/paper. Hãy đóng vai trò phản biện, gợi ý thêm các pain point tiềm năng trong quy trình làm việc theo 4 lăng kính: Lặp lại, Tốn thời gian, AI có thể tốt hơn, Pain từ người khác; kèm bối cảnh cụ thể và số đo định lượng thực tế."
+- Ý dùng được: Gợi ý về pain khi đọc/lọc paper kỹ thuật mới (lăng kính AI có thể tốt hơn) và viết tài liệu README/docstring bàn giao khiến đồng nghiệp nhận lại mất thời gian debug (lăng kính Pain từ người khác).
+- Ý bỏ vì không phải pain thật:
+  + Gợi ý "Tự động hóa toàn bộ việc thiết kế và huấn luyện mô hình": Bỏ vì phạm vi quá rộng, viển vông.
+
+**Self-check Phase 1:**
+- [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
+- [x] Dùng ít nhất 3/4 lăng kính
+- [x] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
 ---
 
@@ -37,251 +42,230 @@
 
 ### 2.1. Chọn top 3
 
-| Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
+Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottleneck ở 1 bước, impact đo được. Loại bài quá rộng.
+
+| Rank | Problem (copy từ bảng scan) | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
 |---|---|---|---|
-| 1 | Khách hỏi thông tin lặp lại qua nhiều kênh | Actor và workflow rõ; lặp lại thường xuyên; có thể đo thời gian phản hồi và thời gian vận hành. | Cần log tần suất câu hỏi và kiểm tra FAQ/rule có xử lý đủ không. |
-| 2 | Lịch phòng có nguy cơ lệch giữa các kênh | Ảnh hưởng trực tiếp tới booking và trải nghiệm khách; có hậu quả rõ nếu sai. | Cần biết các kênh hiện có hỗ trợ đồng bộ hay chưa. |
-| 3 | Theo dõi trạng thái dọn phòng và bảo trì | Workflow có nhiều handoff; có thể giảm việc gọi/nhắn lặp lại. | Cần xác nhận đây có phải pain lớn của nhân viên hay chỉ là vấn đề thỉnh thoảng. |
+| 1 | Tổng hợp công việc đã làm trong tuần và viết weekly report | - Workflow lặp lại hàng tuần rất rõ ràng (chiều thứ Sáu).<br>- Tốn nhiều thời gian hồi tưởng và lục lại task rải rác ở nhiều nguồn.<br>- Impact đo được rõ ràng (tiết kiệm ~40 phút/người/tuần). | - Chất lượng bản tóm tắt narrative AI sinh ra có đủ tự nhiên và đúng trọng tâm đánh giá của Leader không. |
+| 2 | Viết report trình bày các dataset có thể sử dụng | - Tần suất diễn ra thường xuyên khi bắt đầu khảo sát bài toán AI mới.<br>- Thông tin metadata có cấu trúc rõ ràng (kích thước, nhãn, format, license).<br>- Giảm thiểu rủi ro pháp lý/bản quyền khi khảo sát dữ liệu. | - Khả năng AI trích xuất chính xác các dataset đặc thù từ các bài báo khoa học hoặc trang lưu trữ chưa chuẩn hóa. |
+| 3 | Soạn thảo README bàn giao & hướng dẫn chạy code (Reproducible Runbook) sau khi hoàn thành task | - Là điểm nghẽn bàn giao trực tiếp giữa người phát triển và người tiếp quản.<br>- Input rõ ràng (code CLI + terminal log) giúp AI sinh kịch bản chạy chính xác.<br>- Đo lường được rõ ràng thời gian người viết và thời gian tái lập của đồng nghiệp. | - AI có nắm bắt đúng các thiết lập môi trường phức tạp (CUDA version, hardware đặc thù) nếu không được cấp log terminal hay không. |
 
-### 2.2. Problem Card #1 — Khách hỏi thông tin lặp lại qua nhiều kênh
-
-**Problem 1 câu:**
-Khách tiềm năng thường hỏi lặp lại về giá, phòng trống, giờ check-in/check-out, địa chỉ, chỗ đậu xe và tiện nghi qua Facebook, Zalo và nền tảng đặt phòng, khiến người vận hành phải trả lời thủ công nhiều lần và có nguy cơ phản hồi chậm vào giờ cao điểm hoặc ngoài giờ.
-
-**Actor:**
-Khách đang tìm phòng và người vận hành homestay.
-
-**Thời điểm / bối cảnh:**
-Trước khi khách đặt phòng; tập trung vào buổi tối, cuối tuần hoặc lúc người vận hành không thể trả lời ngay.
-
-**Current workflow:**
-
-```text
-1. Khách gửi tin nhắn qua Facebook, Zalo hoặc nền tảng booking.
-2. Người vận hành mở từng kênh và đọc tin.
-3. Kiểm tra giá, lịch trống, loại phòng và quy định liên quan.
-4. Soạn câu trả lời rồi gửi khách.
-5. Khách hỏi thêm hoặc muốn đặt; người vận hành tiếp tục tư vấn/xác nhận.
-```
-
-**Bottleneck:**
-Bước 2-4 lặp lại với các câu hỏi giống nhau. Người vận hành phải chuyển giữa nhiều kênh, kiểm tra thông tin rồi tự soạn lại câu trả lời; vào giờ cao điểm hoặc ngoài giờ, thời gian phản hồi tăng và dễ sót tin.
-
-**Impact:**
-- Mất 180 phút/ngày cho các câu hỏi FAQ.
-- Khách có thể rời đi nếu không nhận được phản hồi sớm.
-- Thông tin trả lời có thể thiếu nhất quán nếu giá/quy định thay đổi.
-
-**Success metric:**
-- Baseline: đo trong 7 ngày số câu FAQ, thời gian phản hồi đầu tiên và thời gian trả lời thủ công.
-- Mục tiêu pilot: ít nhất 80% câu hỏi FAQ nhận câu trả lời đầu tiên trong dưới 5 phút; giảm ít nhất 30% thời gian trả lời FAQ thủ công.
-- Guardrail: không tăng số câu khách phải hỏi lại do câu trả lời thiếu/sai.
-
-**Non-AI alternative:**
-Tạo FAQ, tin nhắn trả lời nhanh, menu/nút chọn hoặc chatbot theo kịch bản. Đây là phương án cần thử trước vì các câu hỏi phổ biến có nội dung tương đối cố định.
-
-**AI hypothesis:**
-Sau khi FAQ và chính sách được chuẩn hóa, AI có thể phân loại câu hỏi viết tự do, tạo câu trả lời dựa trên thông tin đã duyệt và chuyển trường hợp không chắc chắn cho người vận hành. AI không được tự xác nhận phòng trống, chốt giá đặc biệt hay nhận thanh toán.
-
-**Quick gut:**
-`[x] Rule` cho FAQ cố định; có thể nâng thành `Workflow` có AI hỗ trợ sau khi đo được các câu hỏi ngoài FAQ. Chưa cần Agent.
-
-### Draft current workflow
-
-```text
-CURRENT STATE — thời gian cần đo trong 7 ngày
-
-[Khách nhắn ở Facebook/Zalo/Booking]
-→ [Người vận hành mở kênh và đọc]
-→ [Kiểm tra giá, lịch, quy định]
-→ [Tự soạn câu trả lời]  <-- bottleneck
-→ [Khách hỏi thêm / đặt phòng]
-→ [Người vận hành xác nhận]
-```
-
-### Draft future workflow
-
-```text
-FUTURE STATE — pilot FAQ
-
-[Khách nhắn]
-→ [Rule nhận diện menu/từ khóa FAQ]
-→ [Gửi câu trả lời đã duyệt]
-→ [Nếu hỏi phòng trống, giá đặc biệt, khiếu nại hoặc bot không chắc]
-→ [Chuyển người vận hành]
-→ [Người vận hành kiểm tra và trả lời cuối]
-
-Human boundary: chỉ người vận hành xác nhận booking, giá và ngoại lệ.
-Fallback: bot không chắc hoặc dữ liệu cũ → không tự đoán; báo khách chờ người vận hành hỗ trợ.
-```
+### 2.2. Problem Cards chi tiết (lặp lại cho cả 3 cards)
 
 ---
 
-#### Problem Card #2 — Lịch phòng có nguy cơ lệch giữa các kênh
-
-**Problem 1 câu:**
-Người vận hành phải kiểm tra và cập nhật lịch phòng thủ công giữa Booking, Facebook/Zalo và lịch nội bộ, nên có nguy cơ báo sai phòng trống hoặc xử lý booking chậm.
-
-**Actor:**
-Người vận hành homestay; khách đặt phòng; nhân viên dọn phòng.
-
-**Thời điểm / bối cảnh:**
-Khi có khách hỏi phòng trống hoặc đặt phòng qua bất kỳ kênh nào, đặc biệt khi nhiều yêu cầu đến gần nhau.
-
-**Current workflow:**
+#### Problem Card #1 — Tổng hợp công việc đã làm trong tuần và viết weekly report
 
 ```text
-1. Khách hỏi hoặc gửi yêu cầu đặt phòng từ một kênh.
-2. Người vận hành kiểm tra lịch ở kênh đó.
-3. Người vận hành đối chiếu Booking, Facebook/Zalo và lịch nội bộ.
-4. Cập nhật lịch sau khi xác nhận booking.
-5. Báo thông tin phòng cho nhân viên dọn phòng khi cần.
+Problem 1 câu:
+Mỗi chiều thứ Sáu, nhân viên/intern mất 45–60 phút để lục lại commit Git, task Jira và ghi chú rời rạc nhằm tổng hợp công việc trong tuần và viết weekly report nộp cho Leader.
+
+Actor:
+Nhân viên / Intern AI báo cáo cho Team Leader.
+
+Thời điểm / bối cảnh:
+Chiều thứ Sáu hàng tuần (16h30–17h30) trước hạn chót nộp báo cáo tuần của bộ phận.
+
+Current workflow 3-7 bước:
+1. Mở Git log, Jira và kênh chat để rà soát lại các task đã hoàn thành trong tuần.
+2. Lọc ra các đầu việc chính, kết quả cụ thể (model score, PR merged) và các việc còn tồn đọng.
+3. Mở file template Google Docs / Notion báo cáo tuần của nhóm.
+4. Viết nội dung chi tiết: công việc hoàn thành, số liệu kết quả, khó khăn gặp phải và kế hoạch tuần tới.
+5. Format lại văn bản, soát lỗi chính tả và gửi qua email / Slack cho Team Leader.
+
+Bottleneck:
+Bước 1 & 2 (thu thập, hồi tưởng lịch sử công việc rải rác) và Bước 4 (viết narrative từ ghi chú vụn vặt) mất khoảng 30 phút.
+
+Impact:
+Mất 45–60 phút/tuần cho mỗi nhân viên; báo cáo dễ thiếu sót các việc nhỏ nhưng quan trọng, gây khó khăn cho Leader trong việc nắm bắt tiến độ thực tế.
+
+Success metric:
+Giảm tổng thời gian tổng hợp và viết report từ 45–60 phút xuống dưới 15 phút; 100% các task quan trọng trong tuần được phản ánh chính xác.
+
+Non-AI alternative:
+Viết daily log cuối mỗi ngày hoặc dùng script export `git log --author`, nhưng vẫn phải tự phân loại, tóm tắt và format lại theo cấu trúc report.
+
+AI hypothesis:
+AI đọc danh sách git commit log + ghi chú thô trong tuần để tự động phân loại theo nhóm việc, định dạng chuẩn và draft nội dung báo cáo; nhân viên chỉ cần review và bổ sung.
+
+Quick gut:
+[ ] No AI / process fix
+[ ] Rule
+[x] Workflow
+[ ] Agent
+[ ] Chưa biết
 ```
 
-**Bottleneck:**
-Bước 2-4 yêu cầu chuyển qua lại giữa nhiều kênh và cập nhật thủ công. Nếu cập nhật chậm hoặc quên một kênh, người vận hành có thể báo nhầm trạng thái phòng hoặc phải nhắn lại cho khách.
+**Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
 
-**Impact:**
-- Tốn 10 phút cho mỗi booking cần đối chiếu nhiều kênh.
-- Có nguy cơ xảy ra lỗi lệch lịch/trùng phòng; cần ghi số lần trong 20 tháng gần nhất.
-- Khách và nhân viên dọn phòng nhận thông tin chậm hoặc không nhất quán.
+```text
+CURRENT STATE — 50 phút
 
-**Success metric:**
-- Baseline: ghi thời gian xử lý 10 yêu cầu booking và số lần phải sửa/đối chiếu lại lịch trong 1 tháng.
-- Mục tiêu pilot: giảm thời gian kiểm tra trạng thái phòng cho một yêu cầu xuống dưới 30 giây; không phát sinh lỗi báo sai phòng trống trong thời gian pilot.
+[1 Rà soát Git log, Jira, chat: 15'] → [2 Lọc việc & nhớ lại kết quả: 10'] → [3 Mở template Docs: 5'] → [4 Viết narrative & kết quả: 15']  <-- bottleneck → [5 Review & gửi: 5']
 
-**Non-AI alternative:**
-Dùng một lịch trung tâm, checklist cập nhật sau booking và quy ước trạng thái phòng thống nhất. Nếu các nền tảng hỗ trợ, cân nhắc channel manager để đồng bộ lịch.
+FUTURE STATE — 12 phút
 
-**AI hypothesis:**
-AI chỉ nên hỗ trợ đọc nội dung booking tự do và tóm tắt các yêu cầu cần cập nhật. Trạng thái phòng và thao tác xác nhận phải lấy từ nguồn dữ liệu chính xác, không để AI tự suy đoán.
+[1 Export git log & gạch đầu dòng thô: 3'] → [2 AI gom nhóm & draft narrative: 2'] → [3 Nhân viên review & chỉnh sửa: 5']  <-- human boundary → [4 Gửi báo cáo: 2']
 
-**Quick gut:**
-`[x] Workflow` — trước hết là một quy trình đồng bộ dữ liệu và checklist; chưa đủ căn cứ để dùng Agent.
+Fallback: nếu AI tổng hợp sai hoặc thiếu sót task, nhân viên mở trực tiếp danh sách ghi chú thô và tự điền vào template theo quy trình cũ.
+```
+
+File đính kèm (nếu vẽ riêng): `(Không cần ảnh riêng, sử dụng bản vẽ ASCII workflow ở trên)`
+
+---
+
+#### Problem Card #2 — Viết report trình bày các dataset có thể sử dụng
+
+```text
+Problem 1 câu:
+Khi khảo sát dữ liệu cho bài toán AI mới, nhân viên/intern mất khoảng 40 phút để tổng hợp thông tin, cấu trúc metadata, giấy phép và so sánh ưu nhược điểm của các dataset vào một bản báo cáo khảo sát.
+
+Actor:
+Nhân viên / Intern AI thực hiện khảo sát dữ liệu cho dự án AI.
+
+Thời điểm / bối cảnh:
+Giai đoạn đầu của sprint hoặc khi nhận bài toán AI mới cần tìm kiếm dataset phù hợp (1–2 lần/tuần).
+
+Current workflow 3-7 bước:
+1. Đọc thông tin các dataset tiềm năng từ HuggingFace, Kaggle, GitHub, paper đính kèm.
+2. Trích xuất thủ công các thông số: dung lượng, format, license, số lượng mẫu, nhãn, phân bố ngôn ngữ/domain.
+3. Tổng hợp ưu/nhược điểm và độ phù hợp của từng dataset với bài toán hiện tại.
+4. Lập bảng so sánh và viết đoạn đánh giá khuyến nghị (recommendation) vào tài liệu báo cáo.
+5. Đọc lại, format bảng biểu và gửi cho Senior/Leader duyệt.
+
+Bottleneck:
+Bước 2 & 4 — trích xuất thủ công các trường metadata rời rạc từ các trang mô tả khác nhau và viết đoạn văn bản so sánh, khuyến nghị mất 20–25 phút.
+
+Impact:
+Mất 40 phút cho mỗi báo cáo khảo sát (1–2 lần/tuần); làm chậm tiến độ chốt nguồn dữ liệu để bắt đầu train/fine-tune; thông tin trích xuất thủ công dễ nhầm lẫn giấy phép bản quyền.
+
+Success metric:
+Giảm thời gian viết report từ 40 phút xuống còn 10–12 phút; thông tin so sánh chuẩn hóa 100% theo checklist (license, kích thước, format, rủi ro bản quyền).
+
+Non-AI alternative:
+Tạo Google Sheets template có các cột cố định để điền tay, nhưng vẫn tốn công copy-paste từng trường thông tin và tự viết nhận định tổng hợp.
+
+AI hypothesis:
+Cung cấp link/thông tin thô của các dataset, AI tự động trích xuất các trường thông tin chuẩn (kích thước, định dạng, license, domain), tạo bảng Markdown so sánh và đề xuất dự thảo nhận định ưu/nhược điểm.
+
+Quick gut:
+[ ] No AI / process fix
+[ ] Rule
+[x] Workflow
+[ ] Agent
+[ ] Chưa biết
+```
 
 **Draft workflow Card #2:**
 
 ```text
-CURRENT STATE — thời gian cần đo
+CURRENT STATE — 40 phút
 
-[Khách hỏi/đặt phòng ở một kênh]
-→ [Mở từng kênh để kiểm tra lịch]
-→ [Đối chiếu với lịch nội bộ]  <-- bottleneck
-→ [Xác nhận với khách]
-→ [Cập nhật từng kênh]
-→ [Báo nhân viên dọn phòng]
+[1 Đọc trang dataset/paper: 10'] → [2 Trích xuất thủ công metadata: 12'] → [3 Đánh giá ưu nhược điểm: 8'] → [4 Soạn báo cáo & bảng so sánh: 7']  <-- bottleneck → [5 Review & gửi: 3']
 
-FUTURE STATE — pilot quy trình tập trung
+FUTURE STATE — 10 phút
 
-[Yêu cầu booking]
-→ [Kiểm tra lịch trung tâm]
-→ [Rule/checklist kiểm tra trạng thái]
-→ [Người vận hành xác nhận]
-→ [Cập nhật và thông báo nhân viên]
+[1 Thu thập link/text mô tả dataset: 3'] → [2 AI trích xuất metadata & draft so sánh: 2'] → [3 Nhân viên kiểm tra chéo license & số liệu: 4']  <-- human boundary → [4 Hoàn thiện & gửi: 1']
 
-Human boundary: người vận hành luôn kiểm tra lịch thực tế trước khi xác nhận với khách.
-Fallback: lịch trung tâm có dấu hiệu chưa đồng bộ → kiểm tra lại tất cả kênh trước khi chốt.
+Fallback: nếu AI trích xuất sai license hoặc nhầm lẫn số liệu, nhân viên đối chiếu trực tiếp với trang nguồn và sửa tay trên bảng chuẩn.
 ```
+
+File đính kèm: `(Không cần ảnh riêng, sử dụng bản vẽ ASCII workflow ở trên)`
 
 ---
 
-#### Problem Card #3 — Theo dõi trạng thái dọn phòng và bảo trì
-
-**Problem 1 câu:**
-Người vận hành khó biết phòng nào đã dọn xong, còn thiếu vật dụng hoặc có thiết bị cần bảo trì khi việc bàn giao chủ yếu qua tin nhắn, khiến phòng có thể chưa sẵn sàng lúc khách check-in.
-
-**Actor:**
-Nhân viên dọn phòng; người vận hành homestay; khách sắp check-in.
-
-**Thời điểm / bối cảnh:**
-Sau khi khách check-out và trước thời điểm khách tiếp theo check-in.
-
-**Current workflow:**
+#### Problem Card #3 — Soạn thảo README bàn giao & hướng dẫn chạy code (Reproducible Runbook) sau khi hoàn thành task
 
 ```text
-1. Khách check-out hoặc người vận hành nhận thông báo check-out.
-2. Người vận hành nhắn/gọi nhân viên để giao việc dọn phòng.
-3. Nhân viên dọn phòng và kiểm tra vật dụng/thiết bị.
-4. Nhân viên báo lại bằng tin nhắn hoặc cuộc gọi.
-5. Người vận hành hỏi lại nếu thiếu thông tin hoặc cần kiểm tra.
-6. Người vận hành xác nhận phòng sẵn sàng cho khách tiếp theo.
+Problem 1 câu:
+Sau khi hoàn thành thử nghiệm/module AI, intern mất 45–60 phút để tra cứu log, soạn hướng dẫn cài đặt môi trường và viết câu lệnh chạy (CLI args) vào file README; do tốn công nên thường viết sơ sài khiến đồng nghiệp nhận lại mất 1–2 giờ debug lỗi môi trường/thiếu tham số.
+
+Actor:
+Intern AI (người bàn giao code) / Đồng nghiệp trong team AI (người tiếp quản codebase, tái lập kết quả thử nghiệm hoặc review PR).
+
+Thời điểm / bối cảnh:
+Cuối sprint hoặc ngay khi hoàn thành một module/thử nghiệm mô hình cần merge vào main repository và bàn giao cho người khác chạy tiếp.
+
+Current workflow 3-7 bước:
+1. Rà soát file code chính (main.py, train.py), file config và lịch sử terminal để nhớ lại các thư viện mới cài cùng các flags/arguments đã dùng.
+2. Xuất danh sách dependencies (pip freeze / environment.yml) và lọc bỏ các thư viện thừa.
+3. Soạn thảo cấu trúc file README: yêu cầu môi trường phần cứng/CUDA, các bước cài đặt dependencies.
+4. Viết giải thích chi tiết ý nghĩa từng tham số dòng lệnh (CLI flags/hyperparameters) và cú pháp câu lệnh chạy mẫu kèm ví dụ input/output.
+5. Soát lại định dạng Markdown và đẩy code lên Git (thường bỏ qua bước chạy thử trên môi trường sạch vì ngại tốn thời gian).
+
+Bottleneck:
+Bước 3 & 4 — mất 30–40 phút để viết narrative giải thích từng tham số CLI, sắp xếp thứ tự các bước chạy và căn chỉnh định dạng README; đây là bước tốn nhiều công sức gõ văn bản nhất nên hay bị làm qua loa.
+
+Impact:
+Tác giả mất 45–60 phút/lần bàn giao; nếu viết ẩu hoặc thiếu tham số, người tiếp quản repo mất 1–2 giờ vật lộn với lỗi xung đột version CUDA/package hoặc không tái lập được kết quả của mô hình.
+
+Success metric:
+Giảm thời gian soạn thảo README bàn giao từ 45–60 phút xuống dưới 15 phút; người nhận lại repo có thể chạy thành công lệnh mẫu trong vòng 10 phút ngay lần đầu mà không cần hỏi lại tác giả.
+
+Non-AI alternative:
+Sử dụng template README có sẵn (cookiecutter) kết hợp `argparse --help > README.md`; tuy nhiên text xuất ra từ CLI thô ráp, không có bối cảnh bài toán, không có thứ tự các bước chạy thực tế và vẫn phải tự viết hướng dẫn môi trường.
+
+AI hypothesis:
+Cung cấp code chứa module CLI (argparse/click), log terminal chạy thành công gần nhất và file dependencies; AI tự động trích xuất bảng tham số, sinh kịch bản chạy mẫu chuẩn xác (Runbook) kèm lưu ý về môi trường; tác giả kiểm thử lại lệnh trong môi trường sạch trước khi commit.
+
+Quick gut:
+[ ] No AI / process fix
+[ ] Rule
+[x] Workflow
+[ ] Agent
+[ ] Chưa biết
 ```
-
-**Bottleneck:**
-Trạng thái phòng không được cập nhật ở một nơi chung. Người vận hành phải hỏi lại liệu phòng đã dọn xong chưa, có thiếu đồ không hoặc có lỗi thiết bị không; thông tin dễ bị sót khi có nhiều phòng.
-
-**Impact:**
-- Mất 7-10 lần gọi/nhắn lại mỗi tuần để kiểm tra trạng thái phòng.
-- Có nguy cơ phát hiện thiếu đồ hoặc hỏng thiết bị muộn, sát giờ khách check-in.
-- Nhân viên và người vận hành không có cùng một trạng thái phòng để theo dõi.
-
-**Success metric:**
-- Baseline: theo dõi trong 1 tuần số phòng sẵn sàng đúng giờ, số lần hỏi lại và số lỗi phát hiện sau khi báo đã hoàn tất.
-- Mục tiêu pilot: 100% phòng có trạng thái dọn phòng trước giờ check-in; giảm ít nhất 50% số lần hỏi lại giữa người vận hành và nhân viên.
-
-**Non-AI alternative:**
-Dùng bảng trạng thái chung hoặc form checklist theo phòng: cần dọn, đang dọn, chờ kiểm tra, sẵn sàng, cần bảo trì. Đây là phương án nên thử đầu tiên.
-
-**AI hypothesis:**
-AI có thể tóm tắt tin nhắn bàn giao hoặc phát hiện các nội dung có dấu hiệu “thiếu”, “hỏng”, “cần sửa”. AI không được tự đánh dấu phòng sẵn sàng; nhân viên hoặc người vận hành phải xác nhận bằng checklist.
-
-**Quick gut:**
-`[x] Rule / Workflow` — quy trình và checklist trạng thái rõ ràng có thể giải quyết phần lớn vấn đề; AI chỉ là hỗ trợ phụ.
 
 **Draft workflow Card #3:**
 
 ```text
-CURRENT STATE — thời gian cần đo
+CURRENT STATE — 55 phút
 
-[Khách check-out]
-→ [Người vận hành nhắn/gọi giao việc]
-→ [Nhân viên dọn phòng]
-→ [Nhân viên báo bằng tin nhắn]
-→ [Người vận hành hỏi lại / kiểm tra]  <-- bottleneck
-→ [Xác nhận sẵn sàng]
+[1 Rà soát code & lịch sử terminal: 10'] → [2 Lọc dependencies & config: 10'] → [3 Viết hướng dẫn setup & giải thích CLI args: 25']  <-- bottleneck → [4 Format README & đẩy Git: 10']
 
-FUTURE STATE — pilot bảng trạng thái + checklist
+FUTURE STATE — 14 phút
 
-[Khách check-out]
-→ [Rule tạo việc dọn phòng]
-→ [Nhân viên cập nhật checklist/trạng thái]
-→ [Người vận hành kiểm tra điểm bất thường]
-→ [Xác nhận phòng sẵn sàng]
+[1 Cung cấp code CLI + log terminal + env file: 3'] → [2 AI trích xuất bảng args & draft Runbook: 2'] → [3 Tác giả chạy smoke test lệnh mẫu trên env sạch: 7']  <-- human boundary → [4 Commit & bàn giao repo: 2']
 
-Human boundary: chỉ nhân viên hoặc người vận hành được đánh dấu “sẵn sàng”.
-Fallback: không có checklist hoàn chỉnh hoặc có báo lỗi → phòng giữ trạng thái “chờ kiểm tra”, không giao khách vào.
+Fallback: nếu AI format sai cú pháp lệnh hoặc hiểu sai tham số, tác giả dùng template README cố định, chỉ lấy bảng mô tả tham số của AI và paste trực tiếp câu lệnh đã test từ terminal history vào.
 ```
 
-File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-3.png`
+File đính kèm: `(Không cần ảnh riêng, sử dụng bản vẽ ASCII workflow ở trên)`
 
-### 2.3. Card muốn pitch nhất
+---
+
+### 2.3. Card muốn pitch nhất (chuẩn bị 2 phút)
 
 **Card tôi muốn pitch nhất:**
 
 ```text
-Khách hỏi thông tin lặp lại qua nhiều kênh.
+Problem Card #3 — Soạn thảo README bàn giao & hướng dẫn chạy code (Reproducible Runbook) sau khi hoàn thành task
 ```
 
-**Vì sao:**
+**Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
 ```text
-Đây là workflow tôi trực tiếp nhìn thấy: khách nhắn, tôi kiểm tra thông tin rồi trả lời. Bước soạn và gửi lại cùng một thông tin lặp lại, trong khi thời gian phản hồi có thể đo rõ bằng log tin nhắn. Tôi muốn kiểm tra xem FAQ/rule đã đủ hay chỉ một phần nhỏ câu hỏi mới cần AI hỗ trợ.
+- Workflow: Quy trình bàn giao mã nguồn thử nghiệm AI từ tác giả sang đồng nghiệp tiếp quản (rà soát tham số, thiết lập môi trường và viết kịch bản chạy mẫu).
+- Số đo: Giảm thời gian tác giả viết tài liệu bàn giao từ 45–60 phút xuống dưới 15 phút; người nhận chạy thành công lệnh mẫu trong vòng 10 phút ngay lần đầu.
+- Impact: Xóa bỏ điểm nghẽn "code chỉ chạy được trên máy người viết", tiết kiệm 1–2 giờ debug lỗi môi trường/thiếu cờ tham số cho đồng nghiệp, chuẩn hóa tài liệu kỹ thuật của nhóm.
 ```
 
-**Câu hỏi tôi muốn nhóm challenge:**
+**Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
 ```text
-1. Có evidence nào cho thấy phản hồi chậm thực sự làm mất booking, hay đây chỉ là cảm nhận của tôi?
-2. FAQ và trả lời nhanh có giải được 70-80% câu hỏi chưa, hay có đủ câu hỏi tự do để dùng AI Workflow?
+1. Nếu dự án có cấu hình phần cứng đặc thù (CUDA version, GPU VRAM, checkpoint weights nặng nằm ở server nội bộ), làm sao AI biết để đưa vào README nếu tác giả quên cung cấp trong prompt?
+2. Một template README cố định kèm script pip freeze / Makefile (No-AI / Rule) liệu đã đủ giải quyết bài toán bàn giao chưa, AI thực sự tạo ra khác biệt cốt lõi ở bước nào?
 ```
 
-**AI phản biện Card:**
-
-- Điểm yếu AI chỉ ra: chưa có baseline tần suất và thời gian phản hồi; dễ nhảy thẳng sang chatbot AI trong khi rule có thể đủ.
-- Tôi sửa gì: dùng log 7 ngày để phân nhóm câu hỏi, đo thời gian và thử FAQ/rule trước; giữ AI ở scope trả lời nháp có nguồn đã duyệt.
+**AI phản biện Card (nếu có):**
+- Điểm yếu AI chỉ ra:
+  + Card ban đầu bị quá rộng và phân tán. 
+  + Thiếu Human verification boundary: Tác giả không có bước tái kiểm tra lệnh AI sinh ra trên môi trường sạch trước khi commit, dễ chuyển rủi ro sang cho người nhận.
+- Tôi sửa gì:
+  + Tách bỏ hoàn toàn phần viết docstring chi tiết (để linter/IDE xử lý cục bộ), tập trung duy nhất vào bài toán: Soạn thảo README hướng dẫn thiết lập môi trường và kịch bản chạy thử nghiệm (Reproducible Runbook).
+  + Bổ sung Human Boundary rõ ràng trong Future Workflow: Tác giả dành 5–7 phút chạy "smoke test" câu lệnh mẫu do AI sinh ra trên môi trường ảo sạch trước khi commit repo.
 
 ### Self-check nộp phần 01
-
-- [x] Có 5 problems và top 3 Problem Cards.
-- [x] Card #1 có workflow trước/sau, bottleneck, metric và fallback.
-- [x] Đã chọn 1 card pitch và câu hỏi challenge.
+- [x] Có 5+ problems + top 3 Cards đủ field
+- [x] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
+- [x] Đã chọn 1 card pitch + câu hỏi challenge
