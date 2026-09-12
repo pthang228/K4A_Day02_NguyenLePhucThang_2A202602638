@@ -1,12 +1,10 @@
 # 01 — Individual Problem Scan
 
-> Bản nháp theo case: người vận hành homestay. Các mốc có dạng `[cần đo]` phải được thay bằng log/số liệu thật trước khi nộp.
-
 ## Thông tin cá nhân
 
 - Họ và tên: Nguyễn Lê Phúc Thắng
 - Mã học viên: 2A202602638
-- Vai trò / bối cảnh: Chủ hoặc người vận hành homestay.
+- Vai trò / bối cảnh: Vừa là sinh viên vừa là chủ của một homestay.
 - Công việc hằng tuần:
   - Trả lời khách qua Facebook, Zalo và nền tảng đặt phòng.
   - Cập nhật phòng trống, giá và xác nhận đặt phòng.
@@ -252,7 +250,6 @@ Human boundary: chỉ nhân viên hoặc người vận hành được đánh d�
 Fallback: không có checklist hoàn chỉnh hoặc có báo lỗi → phòng giữ trạng thái “chờ kiểm tra”, không giao khách vào.
 ```
 
-File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-3.png`
 
 ### 2.3. Card muốn pitch nhất
 
