@@ -1,7 +1,5 @@
 # 02 — Group Problem Statement
 
-> Tổng hợp từ 5 branch: `main`, `LeGiaBao-2A202602887`, `TrangPhuocHoangMinh_02690`, `Trinh_02861`, `vmhieu`. Nhóm chọn candidate từ report của **Trang Phước Hoàng Minh**. Quyết định Go chỉ áp dụng cho pilot nhỏ, không phải triển khai tự động vào dữ liệu công ty.
-
 ## Thành viên nhóm
 
 | Thành viên | Mã học viên | Candidate nổi bật |
@@ -9,7 +7,7 @@
 | Nguyễn Lê Phúc Thắng | 2A202602638 | FAQ khách homestay qua nhiều kênh |
 | Lê Gia Bảo | 2A202602887 | Tổng hợp chi tiêu đa nguồn |
 | Trang Phước Hoàng Minh | 2A202602690 | Tổng hợp monthly report từ weekly report và GitHub |
-| Bùi Trọng Trình | 2A202602861 | Tổng hợp tiến độ nhóm từ chat, bảng task và file |
+| Bùi Trọng Trịnh | 2A202602861 | Tổng hợp tiến độ nhóm từ chat, bảng task và file |
 | Vũ Minh Hiếu | 2A202602779 | Tổng hợp công việc tuần và viết weekly report |
 
 **Candidate nhóm chọn:** Cuối tháng, ERP Engineer mất khoảng 2.5–3.5 giờ để đối chiếu weekly report và GitHub commits rồi viết lại thành báo cáo cho quản lý không dùng GitHub.
